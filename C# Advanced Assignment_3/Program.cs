@@ -178,6 +178,32 @@
             //Console.WriteLine($"Output result value: '{result}'");
             #endregion
 
+            #region Browser History
+            //Stack<string> history = new Stack<string>();
+            //history.Push("google.com");
+            //history.Push("github.com");
+            //history.Push("stackoverflow.com");
+            //history.Push("youtube.com");
+            //history.Push("claude.ai");
+
+            //string currentPage = history.Peek();
+            //Console.WriteLine($"Current page (Peek): {currentPage}");
+
+            //for (int i = 1; i <= 3; i++)
+            //{
+            //    string leftPage = history.Pop();
+            //    Console.WriteLine($"Leaving page: {leftPage}");
+            //}
+
+            //Console.WriteLine($"Current active page: {history.Peek()}");
+
+            //history.Pop(); 
+            //history.Pop(); 
+
+            //bool poppedSuccessfully = history.TryPop(out string poppedUrl);
+            //Console.WriteLine($"Did TryPop succeed on empty stack? {poppedSuccessfully}");
+            //Console.WriteLine($"Popped URL value: '{poppedUrl}'");
+            #endregion
         }
     }
 }
