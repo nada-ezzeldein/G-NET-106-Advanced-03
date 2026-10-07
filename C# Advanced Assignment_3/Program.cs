@@ -152,6 +152,32 @@
             //Console.WriteLine($"\nIs {{1, 2}} a subset of Set A? {isSubset}");
             #endregion
 
+            #region Queue Simulator
+            //Queue<string> printQueue = new Queue<string>();
+            //printQueue.Enqueue("Report.pdf");
+            //printQueue.Enqueue("Invoice.pdf");
+            //printQueue.Enqueue("Letter.docx");
+            //printQueue.Enqueue("Resume.pdf");
+            //printQueue.Enqueue("Photo.jpg");
+
+            //Console.WriteLine($"Queue Contents: {string.Join(", ", printQueue)}");
+            //Console.WriteLine($"Total Documents Count: {printQueue.Count}");
+
+            //string nextDocument = printQueue.Peek();
+            //Console.WriteLine($"Next document to print (Peek): {nextDocument}");
+            //Console.WriteLine($"Count after Peek: {printQueue.Count}"); 
+
+            //while (printQueue.Count > 0)
+            //{
+            //    string currentDoc = printQueue.Dequeue();
+            //    Console.WriteLine($"Printing: {currentDoc}");
+            //}
+
+            //bool success = printQueue.TryDequeue(out string result);
+            //Console.WriteLine($"Did TryDequeue succeed on empty queue? {success}");
+            //Console.WriteLine($"Output result value: '{result}'");
+            #endregion
+
         }
     }
 }
